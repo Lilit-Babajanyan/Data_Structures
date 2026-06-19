@@ -67,6 +67,7 @@ export class BucketedDeque {
     this.#size += 1;
   }
 
+  
   push_back(value) {
     if (this.#backIndex > this.#everyBucketsLength - 1) {
       this.#backBucket += 1;
