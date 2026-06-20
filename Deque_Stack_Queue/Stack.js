@@ -15,6 +15,7 @@ class Stack {
     this.#size = 0;
   }
 
+  
   isEmpty() {
     return this.#size === 0;
   }
