@@ -8,6 +8,7 @@ export class BucketedDeque {
   #backIndex; // index where the next back element will be inserted
   #size = 0; // total number of elements
 
+  
   constructor(everyBucketsLength) {
     if (
       Number.isInteger(everyBucketsLength) &&
