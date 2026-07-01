@@ -8,7 +8,7 @@ export class BucketedDeque {
   #backIndex; // index where the next back element will be inserted
   #size = 0; // total number of elements
 
-  
+
   constructor(everyBucketsLength) {
     if (
       Number.isInteger(everyBucketsLength) &&
@@ -17,6 +17,7 @@ export class BucketedDeque {
       this.#everyBucketsLength = everyBucketsLength;
     }
 
+    
     this.#buckets = new Array(this.#bucketSize);
 
     for (let i = 0; i < this.#bucketSize; ++i) {
