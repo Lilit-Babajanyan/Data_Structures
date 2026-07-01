@@ -1,6 +1,5 @@
 import { DynamicArray } from "./DynamicArray.js";
-
-export class CircularQueue {
+class CircularQueue {
   #data;
   #front;
   #size;
