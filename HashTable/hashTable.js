@@ -25,7 +25,6 @@ class HashTable {
     }
   }
 
-
   size() {
     return this.#size;
   }
